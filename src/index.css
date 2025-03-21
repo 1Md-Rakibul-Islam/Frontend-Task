@@ -41,11 +41,24 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     padding: 0 2rem;
   }
 }
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+
 
 /* Header */
 .header {
@@ -197,6 +210,10 @@ body {
 
 .hero-image-wrapper {
   position: relative;
+
+  img {
+    width: 100%;
+  }
 }
 
 .hero-image-bg {

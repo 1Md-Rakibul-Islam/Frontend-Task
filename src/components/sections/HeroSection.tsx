@@ -2,9 +2,9 @@ import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="hero">
+    <section className="hero container">
       <div className="hero-bg"></div>
-      <div className="hero-content container">
+      <div className="hero-content">
         <div className="hero-grid">
           <div>
             <div className="badge">
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="hero-image-wrapper">
             <div className="hero-image-bg"></div>
             <img
-              src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&h=600&q=80"
+              src="/src/assets/productHero.png"
               alt="Smart Water Bottle"
               className="hero-image"
             />
